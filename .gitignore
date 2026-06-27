@@ -11,17 +11,17 @@ __pycache__/
 *.pyd
 *.pyc
 
-# Environment files (contains API keys - NEVER commit these)
+# Environment files (API keys - never commit)
 .env
 *.env
 .env.*
 
-# Databases (may contain sensitive data)
+# Databases
 *.db
 *.sqlite
 *.sqlite3
 
-# Jupyter notebooks checkpoints
+# Jupyter checkpoints
 .ipynb_checkpoints/
 
 # IDE
@@ -38,7 +38,7 @@ desktop.ini
 *.log
 logs/
 
-# Build/dist
+# Build
 dist/
 build/
 *.egg-info/
