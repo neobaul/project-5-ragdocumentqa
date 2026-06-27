@@ -1,0 +1,57 @@
+﻿# Virtual environments
+.venv/
+.venv311/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Environment files (contains API keys - NEVER commit these)
+.env
+*.env
+.env.*
+
+# Databases (may contain sensitive data)
+*.db
+*.sqlite
+*.sqlite3
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Build/dist
+dist/
+build/
+*.egg-info/
+
+# Large model files
+*.bin
+*.gguf
+*.onnx
+*.pt
+*.pth
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
